@@ -15,7 +15,7 @@
     <tags>Azure Search, Microsoft, Dependency Injection, container, IoC</tags>
     <dependencies>
       <group targetFramework="netstandard2.0">
-        <dependency id="Cogworks.AzureSearch" version="1.0.0" />
+        <dependency id="Cogworks.AzureSearch" version="1.0.2" />
         <dependency id="Microsoft.Extensions.DependencyInjection" version="3.1.8" />
         <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="3.1.8" />
       </group>
