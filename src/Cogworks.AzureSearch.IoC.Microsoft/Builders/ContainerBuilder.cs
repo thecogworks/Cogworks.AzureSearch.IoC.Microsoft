@@ -40,7 +40,8 @@ namespace Cogworks.AzureSearch.IoC.Microsoft.Builders
             return this;
         }
 
-        public IContainerBuilder RegisterClientOptions(string serviceName, string credentials, string serviceEndpointUrl)
+        public IContainerBuilder RegisterClientOptions(string serviceName, string credentials,
+            string serviceEndpointUrl, bool searchHeaders = false)
         {
             _serviceCollection.TryAddSingleton(_ => new ClientOption(
                 serviceName,
